@@ -14,3 +14,21 @@ A simple Android SMS classification app that implement LSTM model on classifying
 #### Conversation List, Messages List, Contact List, Settings
 <img src="images/conversations_light.png" alt="conversations_light" width="200"> <img src="images/messages_light.png" alt="messages_light" width="200"> </br>
 <img src="images/contact_light.png" alt="contact_light" width="200"> <img src="images/settings_light.png" alt="settings_light" width="200">
+
+## Library
+* [Gson] (https://github.com/google/gson/)
+* [Coroutine] (https://developer.android.com/kotlin/coroutines)
+* [Glide] (https://github.com/bumptech/glide/)
+* [Jetpack-Navigation] (https://developer.android.com/guide/navigation/navigation-getting-started)
+* [Dagger-Hilt] (https://developer.android.com/training/dependency-injection/hilt-android)
+* [Room Presistence Library] (https://developer.android.com/training/data-storage/room)
+* [SMS-MMS Sending Library] (https://github.com/klinker41/android-smsmms)
+* [LibPhoneNumber-android] (https://github.com/MichaelRocks/libphonenumber-android)
+* [Turbine] (https://github.com/cashapp/turbine)
+* [TensorFlowLite] (https://www.tensorflow.org/lite)
+* [Roboletric] (https://github.com/robolectric/robolectric)
+* [Mockito] (https://github.com/mockito/mockito)
+* [Espresso] (https://developer.android.com/training/testing/espresso)
+
+## App Architecture
+* MVVM
