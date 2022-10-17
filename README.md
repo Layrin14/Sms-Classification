@@ -15,6 +15,13 @@ A simple Android SMS classification app that implement LSTM model on classifying
 <img src="images/conversations_light.png" alt="conversations_light" width="200"> <img src="images/messages_light.png" alt="messages_light" width="200"> </br>
 <img src="images/contact_light.png" alt="contact_light" width="200"> <img src="images/settings_light.png" alt="settings_light" width="200">
 
+### Dark Theme
+#### Splash Screen and Start Screen
+<img src="images/splash_dark.png" alt="splash_dark" width="200"> <img src="images/start_dark.png" alt="start_dark" width="200"> <img src="images/load_dark.png" alt="load_dark" width="200">
+#### Conversation List, Messages List, Contact List, Settings
+<img src="images/conversations_dark.png" alt="conversations_dark" width="200"> <img src="images/messages_dark.png" alt="messages_dark" width="200"> </br>
+<img src="images/contact_dark.png" alt="contact_dark" width="200"> <img src="images/settings_dark.png" alt="settings_dark" width="200">
+
 ## Library
 * [Gson](https://github.com/google/gson/)
 * [Coroutine](https://developer.android.com/kotlin/coroutines)
