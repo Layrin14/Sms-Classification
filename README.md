@@ -9,4 +9,4 @@ A simple Android SMS classification app that implement LSTM model on classifying
 
 ## Display
 ### Light Theme
-![splash light](images/splash_light.png)
+<img src="images/splash_light.png" alt="splash_light" width="48">
