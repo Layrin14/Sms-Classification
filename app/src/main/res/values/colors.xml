@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primaryColor">#15538d</color>
+    <color name="primaryLightColor">#517fbe</color>
+    <color name="primaryDarkColor">#002b5f</color>
+    <color name="secondaryColor">#1aa8ad</color>
+    <color name="secondaryLightColor">#60dadf</color>
+    <color name="secondaryDarkColor">#00787e</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <color name="accentColor">#F4F7FB</color>
+
+    <color name="textColor">#101010</color>
+    <color name="textColorHint">#393939</color>
+
+    <color name="selected_background">#EAFFE4</color>
+    <color name="ripple_effect">#80FFFFFF</color>
+    <color name="normal_background">#ffffff</color>
+
+    <color name="transparent">#0000</color>
+
+    <color name="lime">#00ff00</color>
+    <color name="green_dark">#24674C</color>
+    <color name="green_light">#30FFAC</color>
+    <color name="grey">#F0F0F0</color>
+    <color name="blue_very_light">#CBEBFC</color>
+
+    <color name="red_orange">#ffab91</color>
+    <color name="red_pink">#f48fb1</color>
+    <color name="baby_blue">#81deea</color>
+    <color name="violet">#cf94da</color>
+    <color name="light_green">#e7ed9b</color>
+
+    <color name="splash_icon_bg">#3D8DDC</color>
+
+    <color name="label_normal_bg">#3D8DDC</color>
+    <color name="label_status_bg">#22bd7f</color>
+    <color name="label_scam_bg">#fa4d43</color>
+</resources>

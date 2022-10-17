@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="conversation_labels">
+        <item>@string/label_personal</item>
+        <item>@string/label_scam</item>
+        <item>@string/label_promo</item>
+    </string-array>
+
+    <integer-array name="labels_bg_color">
+        <item>@color/label_normal_bg</item>
+        <item>@color/label_scam_bg</item>
+        <item>@color/label_status_bg</item>
+    </integer-array>
+
+    <string-array name="theme_entries">
+        <item>Same as system</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>action_system</item>
+        <item>action_light</item>
+        <item>action_dark</item>
+    </string-array>
+
+    <integer-array name="quick_contact_background">
+        <item>@color/baby_blue</item>
+        <item>@color/light_green</item>
+        <item>@color/red_orange</item>
+        <item>@color/red_pink</item>
+        <item>@color/violet</item>
+    </integer-array>
+</resources>

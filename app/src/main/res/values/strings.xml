@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Sms Classification</string>
+    <string name="fab_content_desc">New message</string>
+    <string name="continue_string">Continue</string>
+    <string name="eta_string_start">Push button bellow to start</string>
+    <string name="load_message">Load &amp; organizing your messages</string>
+    <string name="halfway_done_message">Halfway done</string>
+
+    <string name="progress_percent">%1$d%%</string>
+    <string name="soon">Just a moment</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_change">Change</string>
+    <string name="cancel">Cancel</string>
+
+    <plurals name="delete_conversation">
+        <item quantity="one">Delete this conversation?</item>
+        <item quantity="two">Delete this conversations?</item>
+        <item quantity="many">Delete this conversations?</item>
+        <item quantity="other">Delete this conversations?</item>
+    </plurals>
+
+    <plurals name="change_conversation_label">
+        <item quantity="one">Change conversation label?</item>
+        <item quantity="two">Change conversations label?</item>
+        <item quantity="many">Change conversations label?</item>
+        <item quantity="other">Change conversations label?</item>
+    </plurals>
+
+    <plurals name="delete_message">
+        <item quantity="one">Delete this message?</item>
+        <item quantity="two">Delete this messages?</item>
+        <item quantity="many">Delete this messages?</item>
+        <item quantity="other">Delete this messages?</item>
+    </plurals>
+
+    <string name="normal_label">Normal</string>
+    <string name="fraud_label">Fraud</string>
+    <string name="promotion_label">Status/Ads</string>
+    <string name="add_image_button_desc">Add attachment</string>
+    <string name="message_edit_text_hint">Message</string>
+    <string name="switch_sim_desc">Switch SIM</string>
+    <string name="send_msg_desc">Send</string>
+    <string name="action_copy">Copy</string>
+    <string name="search_contact_hint">Search</string>
+    <string name="all_contact_label">All Contacts</string>
+    <string name="label_personal">Personal</string>
+    <string name="label_scam">Scam</string>
+    <string name="label_promo">Ads/Status</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="sent">Sent</string>
+    <string name="sim_1">Sim 1</string>
+    <string name="sim_2">Sim 2</string>
+    <string name="settings_fragment_title">Settings</string>
+
+    <string name="new_message_fragment_title">New Message</string>
+</resources>

@@ -1,0 +1,78 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.MessageClassification" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryLightColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <!-- ActionMode -->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/ActionMode</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionModeCloseButtonStyle</item>
+
+        <!-- Conversation item -->
+        <item name="conversationTextColor">@color/textColor</item>
+        <item name="conversationTextHintColor">@color/textColorHint</item>
+
+        <item name="backgroundColor">@color/normal_background</item>
+
+        <!-- Toolbar -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <item name="android:navigationBarColor">?attr/colorPrimaryVariant</item>
+
+        <item name="bottomNavigationStyle">@style/BottomNavigationViewStyle</item>
+    </style>
+
+    <!-- ActionMode Style -->
+    <style name="ActionMode" parent="Widget.AppCompat.ActionMode">
+        <item name="background">?attr/colorPrimary</item>
+        <item name="titleTextStyle">@style/ActionModeTitleStyle</item>
+    </style>
+    <style name="ActionModeTitleStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ActionModeCloseButtonStyle" parent="Widget.AppCompat.Light.ActionButton.CloseMode">
+        <item name="android:tint">@color/white</item>
+    </style>
+    <!-- ActionMode Style -->
+
+    <!-- ActionBar Style -->
+    <style name="AppBarStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="background">?attr/colorPrimaryVariant</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:titleTextColor">@color/white</item>
+        <item name="android:actionButtonStyle">@color/white</item>
+    </style>
+    <!-- ActionBar Style -->
+
+    <!-- BottomNavView Style -->
+    <style name="BottomNavigationViewStyle" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/BottomNavigationViewOverlay</item>
+    </style>
+    <style name="BottomNavigationViewOverlay">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
+    <!-- BottomNavView Style -->
+
+    <!-- RadioButton Style -->
+    <style name="RadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="materialThemeOverlay">@style/RadioButtonOverlay</item>
+    </style>
+    <style name="RadioButtonOverlay">
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorSecondary">?colorSecondary</item>
+    </style>
+    <!-- RadioButton Style -->
+</resources>
